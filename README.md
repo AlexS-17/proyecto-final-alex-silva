@@ -1,6 +1,6 @@
 # Proyecto final para el curso Reactjs de Coderhouse
 
-![gif-pagina]()
+![gif-pagina](https://youtu.be/8vLs00rraV8)
 
 ## Introducción
 

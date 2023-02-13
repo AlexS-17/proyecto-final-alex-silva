@@ -1,0 +1,249 @@
+body {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  background-color: rgb(246, 241, 232);
+}
+
+.App {
+  text-align: center;
+}
+
+.loadingDonut {
+  margin: 20% auto;
+  pointer-events: none;
+  width: 150px;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  background-color: rgb(246, 241, 232);
+}
+
+.pixel-heart {
+  width: 100px;
+  height: 100px;
+}
+
+.cartIcon {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 0 20px 0 5px;
+}
+.fa-shopping-cart {
+  margin-right: 16px;
+  font-size: 30px;
+  color: #ffafcc;
+}
+.itemCountNavBar {
+  font-size: 20px;
+  padding-left: 5px;
+  padding-top: 5px;
+  color: black;
+}
+#pageTitle {
+  font-size: 54px;
+}
+#navbarSupportedContent {
+  font-size: 24px;
+}
+.nav-item {
+  padding: 0 20px;
+}
+
+
+.categoriesNav {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+}
+.categoriesBtn {
+  font-size: 20px;
+}
+.btn-outline-primary, .btn-outline-primary:disabled {
+  color: #ffafcc;
+  border-color: rgb(137,55,41);
+}
+.btn-outline-primary:hover, .btn-outline-primary:active {
+  color: rgb(236,162,173);
+  background-color: rgb(137,55,41);
+  border-color: rgb(137,55,41);
+}
+.btn-check:focus+.btn-outline-primary, .btn-outline-primary:focus, check:active+.btn-outline-primary:focus, .btn-check:checked+.btn-outline-primary:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus, .btn-outline-primary:active:focus {
+  box-shadow: 0 0 0 0.25rem rgb(137 55 41 / 50%);
+}
+
+.itemList {
+  margin: 20px auto;
+  width: 90%;
+}
+.row {
+  margin: 0;
+}
+.card {
+  background: none;
+  border-color: grey;
+}
+.card-body {
+  padding: 10, 10 , 10 , 10;
+}
+.card-footer {
+  background: none;
+}
+
+.itemCounter {
+  display: flex;
+  flex-direction: column;
+}
+.counterContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 0;
+}
+.itemCountInput {
+  font-size: 18px;
+}
+.btnCounter {
+  font-size: 30px;
+  width: 40%;
+  line-height: 20px;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:disabled, .btn-primary:active {
+  color: #fff;
+  background-color: rgb(236,162,173);
+  border-color: rgb(236,162,173);
+}
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+  color: #fff;
+  background-color: rgb(236,162,173);
+  border-color: rgb(236,162,173);
+  box-shadow: 0 0 0 0.25rem rgb(236 162 173 / 50%);
+}
+.addBtnContainer {
+  display: block;
+  margin: 5px 0;
+}
+.addBtn {
+  font-size: 20px;
+  width: 100%;
+}
+
+.card-title {
+  font-size: 24px;
+}
+.card-subtitle {
+  font-size: 20px;
+}
+
+
+.cartCard {
+  max-width: 80%;
+  margin: 10px auto;
+}
+.cartCardData {
+  align-items: center;
+}
+.btnRm, .btnRm:hover, .btnRm:active {
+  font-size: 40px;
+  line-height: 20px;
+  border: none;
+  background: none;
+}
+.btnCart {
+  font-size: 30px;
+  line-height: 20px;
+  margin: 0 10px;
+}
+
+.modal-content {
+  font-size: 20px;
+  background-color: rgb(246, 241, 232);
+  border-style: solid;
+  border-color: rgb(236,162,173);
+  border-width: 5px;
+}
+#checkoutForm div {
+  text-align: left;
+}
+#checkoutForm button {
+  margin: 5px 20px;
+  font-size: 18px;
+}
+.form-label {
+  margin-left: 5px;
+}
+
+.confirmationModal h3 {
+  font-size: 40px;
+}
+.confirmationModal p {
+  font-size: 24px;
+}
+.confirmationModal span {
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(137,55,41);
+}
+.confirmationModal button {
+  font-size: 24px;
+}
+
+
+.detailCard {
+  width: 70%;
+  align-items: center;
+  margin: 40px auto;
+}
+.detailCardData {
+  text-align: left;
+  border-left: solid;
+}
+.detailImg {
+  width: 100%;
+}
+
+
+footer p {
+  font-size: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  color: #ffc8dd;
+}
+footer i {
+  font-size: 30px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .loadingDonut {
+    animation: loadingDonut-spin infinite 2s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+@keyframes loadingDonut-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
