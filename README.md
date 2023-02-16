@@ -1,6 +1,6 @@
 # Proyecto final para el curso Reactjs de Coderhouse
 
-![gif-pagina](https://youtu.be/8vLs00rraV8)
+![Video de la página](https://youtu.be/8vLs00rraV8)
 
 ## Introducción
 
@@ -36,4 +36,4 @@ useContext permite crear un contexto donde se puede tener todos los datos, estad
 Con useParams, se detecta el parámetro que se le incica por la URL.
 
 ## El sitio web
-[Página de pixelex]()
+[Página de pixelex](https://proyecto-final-alex-silva-hcve.vercel.app/)
